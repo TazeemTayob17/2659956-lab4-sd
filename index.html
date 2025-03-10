@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form>
+      <label for="country-name">Enter a country:</label>
+      <input type="text" id="country-name" name="country-name" />
+      <button type="button" onclick="submitCountry()" id="submit-button">
+        Submit
+      </button>
+    </form>
+
+    <section id="country-info"></section>
+
+    <section id="bordering-countries"></section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
